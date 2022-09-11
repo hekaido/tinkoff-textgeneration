@@ -19,7 +19,6 @@ if __name__ == "__main__":
                 lines.append(lin)
     else:
         lines=str(input())
-    print(lines)
     clean = []
 
     clean = preproc(lines, 1000)
